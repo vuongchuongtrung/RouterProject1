@@ -1,0 +1,18 @@
+<h1>Welcome to the Router Example</h1>
+
+  <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse navbar-menubuilder">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a [routerLink]="['/']">Page1</a>
+                </li>
+                <li><a [routerLink]="['page2']">Page2</a>
+                </li>
+                <li><a [routerLink]="['/todo']">TodoApp</a>
+                </li> 
+            </ul>
+        </div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
